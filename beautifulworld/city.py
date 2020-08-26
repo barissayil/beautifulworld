@@ -6,7 +6,7 @@ from typing import Tuple
 import numpy as np
 from time import sleep
 
-df = pd.read_csv('worldcities.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/barissayil/beautifulworld/master/beautifulworld/worldcities.csv')
 
 class City():
 	def __init__(self, name: str):
