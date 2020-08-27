@@ -19,7 +19,7 @@ class City():
 		soup = self.get_soup()
 		self.time = soup.find(id='ct').getText()
 		self.date = soup.find(id='ctdat').getText()
-		self.currency = str(soup.find(string='Currency: ').parent.next_sibling)
+		self.currency = str(soup.find(string='Currency: ').parent.next_sibling.text)
 		self.temperature = soup.find(id='wt-tp').getText()
 		self.weather = str(next(soup.find(id='curwt').next_sibling.next_sibling.next_sibling.descendants))
 	def __repr__(self) -> str:
