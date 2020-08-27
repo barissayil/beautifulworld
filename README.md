@@ -44,4 +44,4 @@ climateGraph(istanbul, canberra, tokyo, sf, delhi, helsinki)
 paris, lyon, nice = City('Paris'), City('Lyon'), City('Nice')
 climateGraph(paris, lyon, nice)
 ```
-https://github.com/barissayil/beautifulworld/blob/master/public/paris%20and.png
+![](https://github.com/barissayil/beautifulworld/blob/master/public/paris%20and.png)
