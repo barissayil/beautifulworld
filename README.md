@@ -33,11 +33,15 @@ Coordinates: (41.105, 29.01)
 istanbul = City('Istanbul')
 istanbul.climate_graph()
 ```
+![](https://github.com/barissayil/beautifulworld/blob/master/public/istanbul.png)
 ## Draw climate graphs of multiple cities
 ```python
 istanbul, canberra, tokyo, sf, delhi, helsinki = City('Istanbul'), City('Canberra'), City('Tokyo'), City('San Francisco'), City('Delhi'), City('Helsinki')
 climateGraph(istanbul, canberra, tokyo, sf, delhi, helsinki)
-
+```
+![](https://github.com/barissayil/beautifulworld/blob/master/public/istanbul%20and.png)
+```
 paris, lyon, nice = City('Paris'), City('Lyon'), City('Nice')
 climateGraph(paris, lyon, nice)
 ```
+https://github.com/barissayil/beautifulworld/blob/master/public/paris%20and.png
