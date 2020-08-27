@@ -16,13 +16,15 @@ from beautifulworld.city import City, climateGraph
 ```python
 istanbul = City('Istanbul')
 print(istanbul)
+```
+```
 Istanbul, Turkey
-Time: 09 h 31 m 45
-Date: jeudi 27 août 2020
+Time: 8:37:08 am
+Date: Thursday, August 27, 2020
 Weather: Scattered clouds.
 Temperature: 24 °C
 Population: 10061000
-Currency: <td>Turkish Lira (TRY)</td>
+Currency: Turkish Lira (TRY)
 Coordinates: (41.105, 29.01)
 ```
 
