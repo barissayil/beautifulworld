@@ -40,7 +40,7 @@ istanbul, canberra, tokyo, sf, delhi, helsinki = City('Istanbul'), City('Canberr
 climateGraph(istanbul, canberra, tokyo, sf, delhi, helsinki)
 ```
 ![](https://github.com/barissayil/beautifulworld/blob/master/public/istanbul%20and.png)
-```
+```python
 paris, lyon, nice = City('Paris'), City('Lyon'), City('Nice')
 climateGraph(paris, lyon, nice)
 ```
